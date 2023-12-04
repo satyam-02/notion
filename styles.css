@@ -1,0 +1,430 @@
+.curvedone-box:hover .text {
+   transform: translateY(-10px); /* Shift only the text upward on hover */
+ }
+
+ .text {
+   transition: transform 0.3s ease;
+ }
+
+ .read-more {
+   /* position: absolute; */
+   bottom: 0px; /* Initially hide the "Read More" below the box */
+   left: 0;
+   right: 0;
+   background-color: transparent;
+   padding: 10px;
+   text-align: left;
+   opacity: 0;
+   transition: opacity 0.3s ease; /* Add transition for opacity and position */
+ }
+
+ .curvedone-box:hover .read-more {
+   opacity: 1;
+   transform: translateY(-20px);
+  /* Move "Read More" up on hover */
+ }
+
+ .nav-item.dropdown:hover .dropdown-menu {
+   display: block;
+ }
+
+ /* Add this style to make the dropdown appear on top */
+ .nav-item.dropdown:hover .dropdown-menu {
+   display: block;
+   margin-top: 0;
+ }
+
+ #dropdown1:hover{
+   background-color: #f6f5f4;
+   border-radius:10px ;
+
+ }
+ #dropdown2:hover{
+   background-color: #f6f5f4;
+   border-radius:10px ;
+ }
+ #dropdown3:hover{
+   background-color: #f6f5f4;
+   border-radius:10px ;
+ }
+ #dropdown4:hover{
+   background-color: #f6f5f4;
+   border-radius:10px;
+ }
+
+
+
+
+.banner{
+    font-size: 61px;
+    font-weight: bold;
+    font-family: inter-var (woff2)
+    -apple-system
+    BlinkMacSystemFont
+    "Segoe UI"
+    Helvetica
+    "Apple Color Emoji"
+    Arial
+    sans-serif
+    "Segoe UI Emoji"
+    "Segoe UI Symbol";
+    text-align: center
+}
+
+
+ul{
+   list-style: none;
+}
+
+.client-wrap{
+   text-align: center;
+   width:95%;
+   height:auto;
+}
+
+
+.curved-box {
+    width: 270px;
+    height: 120px;
+    margin: 10px;
+    padding: 20px;
+    border: 2px;
+    border-radius: 20px;
+    background-color: #f6f5f4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    line-height: 1;
+  }
+
+
+
+ .curvedone-box {
+   width: 205px;
+   height: 120px;
+   margin: 10px;
+   padding: 20px;
+   border: 2px;
+   border-radius: 20px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   background-color: #f6f5f4;
+   text-align: left;
+   line-height: 1.2;
+ 
+ }
+
+ .curvedone-box:hover {
+   width: 205px;
+   height: 120px;
+   margin: 10px;
+   padding: 20px;
+   border: 1px solid;
+   border-color: #f6f5f4;
+   border-radius: 20px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   background-color: white;
+   text-align: left;
+   line-height: 1.2;
+ }
+
+
+  #myCarousel {
+   width: 70%;
+   margin: 0 auto; /* Center the carousel horizontally */
+ }
+
+ #secCarousel {
+   width:70%;
+   margin: 0 auto; /* Center the carousel horizontally */
+ }
+ 
+ #thirdCarousel {
+   width: 100%;
+   margin: 0 auto; /* Center the carousel horizontally */
+ }
+
+ .thirdcurved-box {
+   
+   width: 130px;
+   height: 100px;
+   margin: 10px;
+   padding: 20px;
+   border: 2px;
+   text-align: center;
+   border-radius: 20px;
+   background-color: #f6f5f4;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   line-height: 1;
+ 
+ }
+
+ .thirdcurved-box img{
+   width:50%;
+ }
+ .carousel-inner img {
+   width: 100%;
+   height: auto;
+ }
+
+ .fourthcurved-box {
+   width: 420px;
+   height: 370px;
+   margin: 10px;
+   padding: 20px;
+   border: 2px;
+   text-align: center;
+   border-radius: 20px;
+   background-color: #f6f5f4;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   line-height: 1;
+ 
+ }
+
+ .fifthcurved-box {
+   width: 450px;
+   height: 500px;
+   margin: 10px;
+   padding: 20px;
+   border: 2px;
+   text-align: center;
+   border-radius: 20px;
+   background-color: #f6f5f4;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   line-height: 1;
+ 
+ }
+
+ .sixthcurved-box {
+      width: 180px;
+      height: 150px;
+      padding: 20px;
+      border: 2px;
+      margin-top: 20px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 20px;
+
+      background-color: #f6f5f4;
+      line-height: 1;
+    
+    }
+
+ .sevcurved-box {
+      width: 590px;
+      height: 580px;
+      border: 2px;
+      margin-top: 20px;
+      text-align: center;
+      border-radius: 20px;
+      background-color: #f6f5f4;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+    }
+
+    .eightcurved-box {
+      width: 240px;
+      height: 170px;
+      margin-top: 20px;
+      text-align: center;
+      border-radius: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      background-color: #f6f5f4;
+    
+    }
+
+.bigcurve-box{
+   width: 850px;
+   height: 700px;
+   padding: 20px;
+   border: 2px;
+   margin-top: 20px;
+   text-align: center;
+   border-radius: 20px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   background-color: #f6f5f4;
+   line-height: 1;
+}
+ 
+
+
+.banner-sub{
+    text-align: center;
+    font-weight: bold;
+}
+
+.cent{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.notion{
+    max-width: 65%;
+    height: auto;
+}
+
+.students{
+    max-width: 50%;
+    padding-top: 50px;
+    height: auto;
+}
+
+button {
+    background-color: black;
+    font-size: 19px;
+    border-radius: 10px;
+    padding: 15px 50px;
+    cursor: pointer
+}
+
+button:hover {
+    background-color: #454040;
+}
+
+.brands-heading{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center
+}
+
+.brands-text{
+    text-align: center
+}
+
+.brand-img{
+    padding:10px;
+    max-width:10%;
+    height: auto;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    min-height: 350px;
+    padding: 3rem 1rem;
+}
+.container {
+   max-width: 1140px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+
+
+}
+.row{
+   display: flex;
+}
+
+
+.black-text{
+    color:black"
+} 
+
+.col{
+   min-width: 250px;
+   color:grey;
+   text-align: left;
+}
+.col .logo{
+   width: 100px;
+   margin-bottom:25px;
+}
+.col h4{
+   color:black;
+   margin-bottom: 20px;
+   position: relative;
+   cursor: pointer;
+}
+
+.col .social a i{
+   color:#ff014fff;
+   margin-top:2rem;
+   margin-right: 5px;
+   transition: 0.3s ease;
+}
+.col .social a i:hover{
+   transform: scale(1.5);
+   filter:grayscale(25);
+}
+.col .links a{
+   display: block;
+   text-decoration: none;
+   color:grey;
+   margin-bottom: 5px;
+   position: relative;
+   transition: 0.3s ease;
+}
+.col .links a::before{
+   content:'';
+   height: 16px;
+   width:3px;
+   position: absolute;
+   top:5px;
+   left:-10px;
+   background-color: #ff014fff;
+   transition: 0.5s ease;
+   opacity: 0;
+}
+.col .links a:hover::before{
+   opacity: 1;
+}
+.col .links a:hover{
+   transform: translateX(-8px);
+   color:#ff014fff;
+}
+.col .contact-details{
+   display: inline-flex;
+   justify-content: space-between;
+}
+.col .contact-details i{
+   margin-right:15px;
+}
+.row .form{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding:2rem 0;
+}
+.row .form input{
+   background-color: #1a1c20ff;
+   border:0;
+   outline:none;
+   padding:14px 20px;
+   border-radius: 6px;
+   border-top-right-radius: 0;
+   border-bottom-right-radius: 0;
+}
+.form button{
+   padding:14px 20px;
+   border:0;
+   border-radius: 6px;
+   border-top-left-radius: 0;
+   border-bottom-left-radius: 0;
+   background-color: #ff014fff;
+}
+
+/********** Responsive Design ********/
+@media(max-width:900px)
+{
+ .row{
+   flex-direction: column;
+ }
+ .col{
+   width: 100%;
+   text-align: left;
+   margin-bottom: 25px;
+ }
+}
+@media(max-width:768px)
+{
+ .row{
+   flex-direction: column;
+ }
+ .col{
+   width: 100%;
+   text-align: left;
+   margin-bottom: 20px;
+ }
+
+}
